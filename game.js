@@ -1,16 +1,18 @@
 let humanScore = 0;
 let computerScore = 0;
 
+function playGame() {
 
-while (humanScore < 3 && computerScore < 3) {
-    playRound(getHumanChoice(), Math.random());
+    while (humanScore < 5 && computerScore < 5) {
+        playRound(getHumanChoice(), Math.random());
+    }
+
+    if (humanScore == 5) {
+        console.log("The player wins!")
+    }
+
+    else console.log("The computer wins!")
 }
-
-if (humanScore == 3) {
-    console.log("The player wins!")
-}
-
-else console.log("The computer wins!")
 
 
 

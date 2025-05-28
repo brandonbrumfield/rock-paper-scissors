@@ -1,1 +1,1 @@
-This is rock paper scissors coded in javascript and running via browser console. 
+This is rock paper scissors coded in javascript and updated to use a UI.

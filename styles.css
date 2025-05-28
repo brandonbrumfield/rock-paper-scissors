@@ -1,0 +1,31 @@
+.box_container {
+    margin-top: 200px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_choice_container {
+    display: flex;
+    width: 250px;
+    height: 250px; 
+    background-color: blue;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.box_choice {
+    color: red;
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+.score_container {
+    background-color: green;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}

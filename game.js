@@ -1,6 +1,8 @@
 let humanScore = 0;
 let computerScore = 0;
 
+playGame();
+
 function playGame() {
 
     while (humanScore < 5 && computerScore < 5) {
